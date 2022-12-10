@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <algorithm>
 #include <map>
 
 using namespace std;
@@ -25,8 +26,8 @@ int main() {
     // Close the file
     MyReadFile.close();
 
-    std::cout << "Final Score 1 = " << score1 << '\n';
-    std::cout << "Final Score 2 = " << score2 << '\n';
+    std::cout << "Final Score 1 = " << score1 << endl;
+    std::cout << "Final Score 2 = " << score2 << endl;
 } 
 
 
