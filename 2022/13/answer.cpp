@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <numeric>
 #include <map>
 
 using namespace std;
@@ -15,8 +16,8 @@ int main() {
     // Read from the text file
     ifstream MyReadFile("input.txt");
 
-    int score1;
-    int score2;
+    int score1=0;
+    int score2=0;
 
     // Use a while loop together with the getline() function to read the file line by line
     while (getline(MyReadFile, myText)){
